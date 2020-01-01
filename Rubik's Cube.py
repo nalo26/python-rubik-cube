@@ -597,7 +597,7 @@ while MainLoop:
 	if PosX <= -1: PosX = 359
 	if PosY <= -1: PosY = 359
 	update_cube()
-	print(PosX, PosY)
+	# print(PosX, PosY)
 
 pannel.destroy()
 bye()
